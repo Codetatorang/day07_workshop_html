@@ -1,0 +1,20 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+strong{
+    text-shadow: 5px,5px,5px,gray;
+}
+
+.writer{
+    text-align: center;
+    font-size: 5em;
+    font-style: italic;
+    color: teal;
+}
+
+.content{
+    font-size: 10em;
+    font-family: 'Times New Roman', Times, serif;
+}
