@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Home</title>
+    <title>Contact</title>
 </head>
 
 <body>
@@ -47,63 +47,48 @@
         </nav>
     </div>
 
-    <!--gutters-->
-    <div class="container-fluid mt-">
-        <div class="row">
-            <div class="col-md-auto col-lg-9 col-sm-auto p-3 border gray">
-
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eum, fugiat impedit accusamus dicta
-                dolor rem placeat perferendis nostrum officiis magni fuga adipisci, voluptates ratione odio, dolores
-                voluptatum natus vel.
-
-            </div>
-            <div class="col-md-auto col-lg-9 col-sm-auto p-3 border gray">
-
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ratione temporibus rem accusantium vel
-                blanditiis aut tempora velit repellendus debitis ipsum mollitia veritatis natus sint iusto,
-                similique quis laudantium modi!
-
-            </div>
-        </div>
-    </div>
-    <!---->
     <div class="container-fluid">
         <div class="row">
+            <section>
+                <form action="#" method="POST" name="contact_form">
+                    <div class="mb-3 mt-3">
+                        <h2>Contact Us</h2>
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="fullname" class="form-label">Name</label>
+                        <input type="text" placeholder="i.e vincent" required class="form-control">
+                        <span>Full Name is required</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" placeholder="i.e vinceajy93@hotmail.com" required class="form-control"/>
+                        <span>Email is required in proper email format, i.e. vinceajy93@hotmail.com</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="website" class="form-label">Website</label>
+                        <input type="url" placeholder="i.e https://iss.nus.edu.sg" required pattern="(http|https)://.+" class="form-control"/>
+                        <span>URL is required in proper url format, i.e http://www.example.com</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="comments ">Comments</label>
+                        <textarea name="comments" cols="50" rows="10" class="form-control"></textarea>
+                    </div>  
+
+                    <div class="mb-3">
+                        <button type="submit">Submit</button>
+                        <span></span>
+                    </div>
 
 
-            <div class="row mt-3">
-                <div class="col-xs-12 col-sm-6">
-                    <form method="post" action="#">
-                        <div class="mb-3">
-                            <label for="email">Email</label>
-                            <br>
-                            <input type="email" id="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="Password">Password</label>
-                            <br>
-                            <input type="password" id="password">
-                        </div>
-                        <div class="mb-3">
-                            <button type="submit " class="btn-secondary">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+
+                </form>
+            </section>
         </div>
     </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <br>
-            <h1>About Myself</h1>
-            <hr>
-            <p>
-                If you know it and you want it clap your hands. piak piak.
-            </p>
-        </div>
-    </div>
-
     <footer>
         Copywrong &copy; 2023, CornWerks public abundance unlimited.
     </footer>
